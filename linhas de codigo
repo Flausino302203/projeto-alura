@@ -1,10 +1,43 @@
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Aluraflix</title>
+</head>
+
 <body>
     <header>ALURAFLIX</header>
 
-    <h1>COMO É O CURSO DE PSICOLOGIA NO BRASIL?</h1>
-    <p>conhecimentos básicos</p>
+    <section class="chamada">
+        <div class="chamada-texto">
+            <h1>COMO É O CURSO DE PSICOLOGIA NO BRASIL?</h1>
+            <p>#conhecimentos básicos</p>
+        </div>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/b_pmtnc-YD4?si=_0mLCjIqX-ZmD51N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/b_pmtnc-YD4?si=JCavcF73riaLvQHd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
 
+    <section class="categoria">
+        <h2>Faculdades e cursos</h2>
+        <div class="categoria-videos">
+            <a href="https://youtu.be/DSBHxRcMrzI?si=vqphjxqT2RIJpTUV">
+                <img src="https://img.youtube.com/vi/DSBHxRcMrzI/maxresdefault.jpg" />
+            </a>
+            <a href="https://youtu.be/84XANd0FpGI?si=hL9eqziPy-pPx8tG">
+                <img src="https://img.youtube.com/vi/84XANd0FpGI/maxresdefault.jpg" />
+            </a>
+            <a href= "https://youtu.be/Anz43O7V6jw?si=goQHizmchJxfg6Aq"></a>
+                <img src= "https://img.youtube.com/vi/Anz43O7V6jw/maxresdefault.jpg" />
+        </div>
+    </section>
 
 </body>
+
+</html>
